@@ -4,7 +4,7 @@
 > 
 > 更为详细的教程[《利用 GitHub Pages 快速搭建个人博客》](http://qiubaiying.github.io)
 
-![](https://raw.githubusercontent.com/nablacfd/nablacfd.github.io/master/img/readme-home .png)
+![](https://raw.githubusercontent.com/nablacfd/nablacfd.github.io/master/img/readme-home.png)
 
 
 ## 使用
