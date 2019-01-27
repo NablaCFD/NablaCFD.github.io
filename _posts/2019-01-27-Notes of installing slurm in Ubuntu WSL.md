@@ -1,4 +1,15 @@
-# Notes of installing slurm in Ubuntu @WSL
+---
+layout:     post
+title:      Slurm installation in Ubuntu@WSL
+subtitle:    "\"Slurm, Linux\""
+date:       2019-01-27
+author:     QL
+header-img: img/post-bg-2015.jpg
+catalog: true
+tags:
+    - LiNUX
+---
+## Notes of installing slurm in Ubuntu @WSL
 
 Jan 27th, 2019. Based on [reference1](https://ubuntuforums.org/showthread.php?t=2404746)
 1. Install munge and slurm:```sudo apt install munge slurm-wlm```. And excuting the command ```hostname``` and **```slurmd -C```** on each compute node will print its physical configuration (sockets, cores, real memeory size, etc.), which can be use in constructing the **slurm.conf** file.
