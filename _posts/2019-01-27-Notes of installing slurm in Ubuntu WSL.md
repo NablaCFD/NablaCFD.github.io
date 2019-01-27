@@ -8,6 +8,9 @@ header-img: img/post-bg-2015.jpg
 catalog: true
 tags:
     - LiNUX
+    - WSL
+    - slurm
+    - Ubuntu
 ---
 ## Notes of installing slurm in Ubuntu @WSL
 
