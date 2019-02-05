@@ -1,3 +1,15 @@
+---
+layout:     post
+title:      C++ Module Feature
+subtitle:    "\"C++2x ISO Standard\""
+date:       2019-02-04
+author:     QL
+header-img: img/post-bg-2015.jpg
+catalog: true
+tags:
+    - C++
+---
+
 # C++ modules feature of C++20 Standard
 Benefit due to the modules feature
 To avoid huge header files, and make the feature distinguishes itself from things like precompiled header, thus speeding up compilation.
