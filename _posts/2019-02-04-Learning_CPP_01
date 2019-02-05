@@ -1,0 +1,33 @@
+# C++ modules feature of C++20 Standard
+Benefit due to the modules feature
+To avoid huge header files, and make the feature distinguishes itself from things like precompiled header, thus speeding up compilation.
+1. No header files anymore. You won’t be required to separate your files into header & source parts. Header file fragility. (Conventional workarounds: LLVM_WHY_PREFIX_UPPER_MACROS, LLVM_CLANG_INCLUDE_GUARD_H)
+2. No care about declaration consistency. There will be no declaration order consistency problems anymore. Traditional C++ programming, it is better to keep the order of declaration consistent (this way you will have better code navigation possibilities), and, hence, you need to keep track of it, which is just redundant work you need to do.
+3. Better compilation times. Compilation time are promised to become smaller up to 20%. This is the consequence of the face that there will be no need to read and process all of those #include statements each time compiler sees it.
+4. Package management.  Conan
+5. ….
+
+C++ Modules Feature File in the C++ Standard (updated in Dec. 2018):
+http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2018/p1103r2.pdf
+
+From website:
+GNU C++ modules:
+https://gcc.gnu.org/wiki/cxx-modules
+
+MS VC modules:
+https://blogs.msdn.microsoft.com/vcblog/2015/12/03/c-modules-in-vs-2015-update-1/
+
+Old materials:
+Clang is the first compiler to start working on modules even before the standardization is complete. There is not much of a documentation yet, but example code could be found here: 
+http://llvm.org/viewvc/llvm-project/cfe/trunk/test/Modules/ 
+Some comments from Douglas Gregor (the developer implementing them): 
+http://clang-developers.42468.n3.nabble.com/C-modules-td3619936.html
+In theory, you can define a bunch of helper macros like begin_module, end_module, import_module to shield yourself from any likely changes to the syntax that will come in the future.
+EDIT 1: 
+Douglas Gregor has released a presentation about his implementation:
+http://llvm.org/devmtg/2012-11/Gregor-Modules.pdf?=submit
+EDIT 2: 
+The module support in clang have been documented here: 
+http://clang.llvm.org/docs/Modules.html
+EDIT 3: 
+Modules are now supported in Microsoft's C++ compiler as well: http://blogs.msdn.com/b/vcblog/archive/2015/12/03/c-modules-in-vs-2015-update-1.aspx
