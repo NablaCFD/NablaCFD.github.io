@@ -1,13 +1,13 @@
 ---
 layout:     post
-title:      Hello 2017
-subtitle:    "\"Hello World, Hello Blog\""
-date:       2017-02-04
+title:      Tensor essence
+subtitle:    "\"Vector calculus\""
+date:       2019-02-04
 author:     BY
 header-img: img/post-bg-2015.jpg
 catalog: true
 tags:
-    - Mathematic
+    - Math
     - Tensor
     - Vector
 ---
